@@ -1,0 +1,6 @@
+{
+  "allowJS": true,
+  "compilerOptions": {
+    "baseUrl": "src/"
+  },
+}

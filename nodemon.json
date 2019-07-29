@@ -1,0 +1,6 @@
+{
+  "watch": ["src"],
+  "ext": "ts json hbs",
+  "ignore": ["public/apidoc/", "src/**/*.spec.ts"],
+  "exec": "yarn lint && NODE_PATH=./src ts-node src/server.ts"
+}
