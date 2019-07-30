@@ -1,7 +1,8 @@
 import * as express from 'express';
-import Router from './router';
 
-import ErrorController from '../controllers/Error/error.controller';
+import ErrorController from 'controllers/Error/error.controller';
+
+import Router from './router';
 
 class ErrorRouter extends Router {
   public static setRoutes(router: express.Router) {

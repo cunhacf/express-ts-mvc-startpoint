@@ -1,7 +1,8 @@
 import * as express from 'express';
-import Router from './router';
 
-import IndexController from '../controllers/Index/index.controller';
+import IndexController from 'controllers/Index/index.controller';
+
+import Router from './router';
 
 class IndexRouter extends Router {
   public static setRoutes(router: express.Router) {

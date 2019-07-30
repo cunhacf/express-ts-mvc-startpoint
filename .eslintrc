@@ -1,4 +1,18 @@
 {
+  "plugins": ["@typescript-eslint", "import"],
   "parser":  "@typescript-eslint/parser",
   "extends": ["airbnb-typescript"],
+  "rules": {
+    "import/no-unresolved": "error"
+  },
+  "settings": {
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts", ".tsx"]
+    },
+    "import/resolver": {
+      "typescript": {
+        "directory": "./tsconfig.json"
+      }
+    }
+  }
 }

@@ -6,8 +6,8 @@ import * as helmet from 'helmet';
 import * as hbs from 'express-hbs';
 import * as path from 'path';
 
-import IndexRouter from './routes/index.router';
-import ErrorRouter from './routes/error.router';
+import IndexRouter from 'routes/index.router';
+import ErrorRouter from 'routes/error.router';
 
 require('dotenv').config();
 
