@@ -12,7 +12,7 @@
     "start": "ts-node src/server.ts",
     "develop": "nodemon",
     "docs": "apidoc -i src/routes/ -o public/apidoc/",
-    "test": "ts-mocha ./tests/**/*.ts"
+    "test": "ts-mocha --paths ./tests/**/*.ts"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",
