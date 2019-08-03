@@ -2,7 +2,7 @@
 import { describe, it } from 'mocha';
 import * as chai from 'chai';
 
-import App from 'app';
+import App from './app';
 
 import chaiHttp = require('chai-http');
 
